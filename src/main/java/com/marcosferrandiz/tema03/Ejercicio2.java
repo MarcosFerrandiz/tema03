@@ -13,7 +13,8 @@ public class Ejercicio2 {
         primero = input.nextFloat();
         System.out.println("Dime el segundo número");
         segundo = input.nextFloat();
-
+        scanner.close();
+        
         if (primero > segundo){
             System.out.println("El primér número es mayor al segundo");
         }
