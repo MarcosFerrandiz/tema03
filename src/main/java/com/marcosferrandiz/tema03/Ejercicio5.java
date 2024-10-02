@@ -8,7 +8,7 @@ public class Ejercicio5 {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Dime un número del 1 al 10");
-        nota = Int.parseInt(input.nextInt());
+        nota = (int)Float.parseFloat(input.nextFloat());
         scanner.close();
 
         switch (nota){
