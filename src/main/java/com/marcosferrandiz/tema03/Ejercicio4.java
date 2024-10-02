@@ -12,6 +12,7 @@ public class Ejercicio4 {
         numero1 = input.nextInt();
         System.out.println("Dime el segundo número");
         numero2 = input.nextInt();
+        scanner.close();
 
         if (numero1 > numero2){
             System.out.println(numero1 + " " + numero2);
