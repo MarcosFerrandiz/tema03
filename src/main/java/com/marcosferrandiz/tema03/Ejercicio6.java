@@ -10,7 +10,7 @@ public class Ejercicio6 {
         System.out.println("Inique la cantidad");
         numero = input.nextFloat();
         numeroCts = (int)(numero * 100);
-        scanner.close();
+        input.close();
 
         int moneda200 = numeroCts / 200;
         int resto = numeroCts % 200;
