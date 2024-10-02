@@ -8,8 +8,8 @@ public class Ejercicio5 {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Dime un número del 1 al 10");
-        nota = input.nextInt();
-        input.close();
+        nota = Int.parseInt(input.nextInt());
+        scanner.close();
 
         switch (nota){
             case 1,2,3,4 -> System.out.println("INSUFICIENTE");
