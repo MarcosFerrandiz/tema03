@@ -8,7 +8,7 @@ public class Ejercicio6 {
         float numero;
         int numeroCts;
         System.out.println("Inique la cantidad");
-        numero = Float.parseFloat(input.nextLine())
+        numero = Float.parseFloat(input.nextLine());
         numeroCts = (int)(numero * 100);
         scanner.close();
 
