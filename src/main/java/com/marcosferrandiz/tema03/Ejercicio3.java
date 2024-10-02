@@ -8,6 +8,7 @@ public class Ejercicio3 {
         Scanner input = new Scanner(System.in);
         System.out.println("Dime tu edad");
         edad = input.nextInt();
+        scanner.close();
         if (edad < 18){
             System.out.println("Eres menor de edad");
         }
