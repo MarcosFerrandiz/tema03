@@ -9,7 +9,7 @@ public class Ejercicio5 {
         Scanner input = new Scanner(System.in);
         System.out.println("Dime un número del 1 al 10");
         nota = input.nextInt();
-        scanner.close();
+        input.close();
 
         switch (nota){
             case 1,2,3,4 -> System.out.println("INSUFICIENTE");
