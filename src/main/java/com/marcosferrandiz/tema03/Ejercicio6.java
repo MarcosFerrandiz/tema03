@@ -8,9 +8,9 @@ public class Ejercicio6 {
         float numero;
         int numeroCts;
         System.out.println("Inique la cantidad");
-        numero = input.nextFloat();
+        numero = Float.parseFloat(input.nextLine())
         numeroCts = (int)(numero * 100);
-        input.close();
+        scanner.close();
 
         int moneda200 = numeroCts / 200;
         int resto = numeroCts % 200;
@@ -36,3 +36,4 @@ public class Ejercicio6 {
         System.out.println("La cantidad mínima de monedas de " + numero + " es de " + moneda200 + " monedas de 2 euro, " + moneda100 + " monedas de 1 euro, " + moneda50 + " monedas de 50 cts, " + moneda20 + " monedas de 20 cts, " + moneda10 + " monedas de 10 " + moneda5 + " monedas de 5cts, " + moneda2 + " monedas de 2cts," + moneda1 + " monedas de 1cts");
     }
 }
+
