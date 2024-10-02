@@ -9,6 +9,7 @@ public class Ejercicio1 {
         System.out.println("Indíque un número y te diré si es par o impar");
         Scanner input = new Scanner(System.in);
         numero = input.nextFloat();
+        scanner.close();
         if (numero % 2  == 0){
             System.out.println(numero + " es un numero par");
         }
