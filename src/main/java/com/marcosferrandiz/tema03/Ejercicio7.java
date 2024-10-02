@@ -29,7 +29,7 @@ public class Ejercicio7 {
                 cuotaAbonar = cuotaBase;
             }
         }
-        scanner.close();
+        input.close();
         System.out.println("La cuota a abonar es de " + cuotaAbonar);
     }
 }
