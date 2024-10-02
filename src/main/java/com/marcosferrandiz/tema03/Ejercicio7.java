@@ -11,13 +11,13 @@ public class Ejercicio7 {
         float quitarCuota = 0;
         Scanner input = new Scanner(System.in);
         System.out.println("¿Que edad tienes?");
-        edad = input.nextInt();
+        edad = Int.parseInt(input.nextLine());
         if (edad > 65){
             cuotaAbonar = 500 * 50/100;
         }else {
             if (edad < 18){
                 System.out.println("¿Los padres son socios, 1 si es si, 2 si no?");
-                padres = input.nextInt();
+                padres = Int.parseInt(input.nextLine());
                 if (padres == 1){
                     quitarCuota = 500 * 35/100;
                     cuotaAbonar = cuotaBase - quitarCuota;
@@ -29,7 +29,7 @@ public class Ejercicio7 {
                 cuotaAbonar = cuotaBase;
             }
         }
-        input.close();
+        scanner.close();
         System.out.println("La cuota a abonar es de " + cuotaAbonar);
     }
 }
