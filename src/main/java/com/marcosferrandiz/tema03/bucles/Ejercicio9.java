@@ -11,6 +11,8 @@ public class Ejercicio9 {
         System.out.println("Indique el numero que quiera saber si es primo o no");
         num = Float.parseFloat(input.nextLine());
 
+        input.close();
+        
         if (num < 2) {
             esPrimo = "NO";
         } else {
