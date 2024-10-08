@@ -11,6 +11,8 @@ public class Ejercicio8 {
         System.out.println("Dime un número para hacer el factorial");
         numero = Integer.parseInt(input.nextLine());
 
+        input.close();
+        
         System.out.print(numero + "! = ");
         for (int cuenta = numero; cuenta > 0; cuenta--){
             total *=cuenta;
