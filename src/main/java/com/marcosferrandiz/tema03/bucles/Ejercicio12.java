@@ -11,7 +11,7 @@ public class Ejercicio12 {
         int numeroRNG;
 
         Random rng = new Random();
-        numeroRNG = rng.nextInt(1, 100);
+        numeroRNG = rng.nextInt(1, 101);
 
         do {
             System.out.println("Inserte la cantidad de intentos que quieras tener");
