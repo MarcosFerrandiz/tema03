@@ -42,5 +42,6 @@ public class Ejercicio12 {
                 System.out.println("Has perdido, que malo!!!!!!!!");
             }
         }
+        input.close();
     }
 }
